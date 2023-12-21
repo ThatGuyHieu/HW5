@@ -1,0 +1,166 @@
+/* Background styles */
+body {
+  height: 100%;
+  background-color: #394240;
+  font-family: "Arial", Times, serif;
+  color: #F5F5F5;
+  margin-bottom: 96px;
+}
+
+/* Main container styles */
+#main {
+  background-image: linear-gradient(to bottom right, #394240, #3e606f);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  margin: auto;
+  margin-top: 0;
+  width: 900px;
+  border-bottom-left-radius: 30px;
+  border-bottom-right-radius: 30px;
+  border: 1px #F0E68C solid;
+  border-top: none;
+}
+
+/* Button Section styles */
+#buttons {
+  text-align: center;
+  padding: 38px 0 38px 0;
+}
+
+/* Span styles */
+span {
+  font-family: "Arial", Times, serif;
+}
+
+/* Buttons styles */
+button {
+  font-weight: bold;
+  font-size: 20px;
+  font-family: "Arial", Times, serif;
+  width: 200px;
+  height: 40px;
+  border-radius: 15px;
+  background-color: #3e606f;
+  border-color: #394240;
+  color: #F5F5F5;
+}
+
+/* Child of main container styles */
+#main > * {
+  margin: auto;
+}
+
+/* Header styles */
+header {
+  padding: 32px 0 32px 0;
+}
+
+/* h1 heading styles */
+h1 {
+  font-size: 36px;
+  text-align: center;
+  color: #F5F5F5;
+}
+
+/* Scoreboard section styles */
+#scoreboard {
+  height: 30px;
+  width: 574px;
+}
+
+/* Game board styles */
+#board {
+  width: 595px;
+  height: 92px;
+  background-color: #4CAF50;
+}
+
+/* Tile rack styles */
+#rack {
+  width: 640px;
+  height: 182px;
+  padding-top: 45px;
+  padding-left: 70px;
+  background-image: url('../images/scrabble-tile-holder-406774_640.png');
+  background-repeat: no-repeat;
+  background-color: #394240;
+}
+
+/* Centered image(logo) style */
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+  box-shadow: 0 0 50px 50px #87CEFA inset;
+}
+
+/* Slot elements styles */
+.slot {
+  position: relative;
+}
+
+/* Placing blank tile in the rack */
+.board-blank {
+  background-image: url('../images/Board_Tiles/blank.png');
+}
+
+/* Placing double-word tile in the rack */
+.board-double-word {
+  background-image: url('../images/Board_Tiles/double_word.png');
+}
+
+/* Placing double-letter tile in the rack */
+.board-double-letter {
+  background-image: url('../images/Board_Tiles/double_letter.png');
+  background: fit;
+}
+
+/* Draggable elements styles */
+.draggable {
+  width: 80px;
+  height: 88px;
+  float: left;
+  margin-right: 5px;
+  border-radius: 5px;
+  background-color: #87CEEB;
+  z-index: 1;
+}
+
+/* Droppable elements styles */
+.droppable {
+  width: 81px;
+  height: 88px;
+  float: left;
+  margin: 0;
+  margin-right: 2px;
+  position: relative;
+  top: 2px;
+  border: 1px black solid;
+}
+
+/* Drop hover effect styles */
+.drop-hover {
+  box-shadow: 0 0 5px 5px #87CEFA;
+  z-index: 1;
+  transition: box-shadow 0.2s;
+}
+
+/* Hovering effect styles */
+.hovering {
+  z-index: 100;
+  box-shadow: 5px 5px 5px 0px black;
+  transition: box-shadow 0.2s;
+}
+
+/* Scoreboard elements styles */
+#scoreboard > div,
+#scoreboard > div > div {
+  display: inline-block;
+  width: 150px;
+}
+
+/* Links styles */
+a {
+  color: #87CEEB;
+}
