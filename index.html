@@ -1,0 +1,54 @@
+<!--
+Brandon Nguyen
+Brandon_Nguyen4@student.uml.edu
+-->
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Scrabble Game</title>
+    <!-- CSS stylesheets -->
+    <link rel="stylesheet" href="../../fonts/font_styles.css">
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+</head>
+
+<body>
+    <div id="main">
+        <header>
+            <img src="images/Scrabble-Logo.png" alt="Scrabble" class="center" id="logo">
+        </header>
+
+        <div id="scoreboard">
+            <!-- Placeholder for the current word being formed -->
+            <div>
+                <div class="label">Word: <span id="word"></span></div>
+            </div>
+            <!-- Placeholder for the total score and current score -->
+            <div>
+                <div class="label">Score: <span id="total-score">0</span>(+<span id="cur-score"></span>)</div>
+            </div>
+            <!-- Placeholder for the number of remaining tiles -->
+            <div>
+                <div class="label">Remaining tiles: <span id="bag"></span></div>
+            </div>
+        </div>
+
+        <!-- Placeholder for the Scrabble board -->
+        <div id="board"></div>
+
+        <!-- Next Word and reset Buttons-->
+        <div id="buttons">
+            <button id="next-word" disabled='disabled'>Next Word</button>
+            <button id="reset">Reset</button>
+        </div>
+
+        <div id="rack"></div>
+    </div>
+
+    <!-- jQuery links -->
+    <script src="js/jquery-3.4.1.min.js"></script>
+    <script src="js/jquery-ui.min.js"></script>
+    <script src="js/script.js"></script>
+</body>
+
+</html>
